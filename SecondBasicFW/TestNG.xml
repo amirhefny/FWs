@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="InetBankingV1">
+    <test name="ecoomerce Test">
+        <classes>
+            <class name="org.example.LoginTest">
+                 <methods>
+                <include name="loginSuccessfully" />
+                 </methods>
+            </class>
+            <class name="org.example.AddToCartTest" />
+            <class name="org.example.CheckoutTest">
+                <methods>
+                    <include name="checkoutSuccessfully" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
